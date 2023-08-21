@@ -1,0 +1,35 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 858256c6-2894-41d1-b10a-3fc338c88974)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "SWCLK" (shape bidirectional) (at 101.6 83.82 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 47c61137-352e-41f6-acc1-07ab5564d03e)
+  )
+  (hierarchical_label "~{NRST}" (shape bidirectional) (at 101.6 78.74 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5d4f6b99-6c92-4b0a-9fa2-805a282a85ea)
+  )
+  (hierarchical_label "VCP_TX" (shape output) (at 101.6 88.9 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 9ed7270d-2a59-4d76-afaf-dc74774b9b7f)
+  )
+  (hierarchical_label "VCP_RX" (shape input) (at 101.6 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid aeaacbdd-d125-4ee4-aceb-15b04b6a9a46)
+  )
+  (hierarchical_label "SWDIO" (shape bidirectional) (at 101.6 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e22f1489-faf5-4aef-aae0-2d8be9cdaf40)
+  )
+  (hierarchical_label "SWO" (shape bidirectional) (at 101.6 86.36 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e3a330d9-ea9c-4e54-8a7f-7d24f650baf7)
+  )
+)

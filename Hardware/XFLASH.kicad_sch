@@ -1,0 +1,35 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 309b4035-a180-472b-a4e9-224c3fff48b5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "SCK" (shape input) (at 127 35.56 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 33d049c0-2750-40c7-8e25-bebd0ae4847d)
+  )
+  (hierarchical_label "IO1" (shape bidirectional) (at 127 43.18 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 386e218c-2037-4e6f-99f2-dde337d4d8e4)
+  )
+  (hierarchical_label "IO3" (shape bidirectional) (at 127 48.26 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7a304640-c9fe-4bbe-8b96-170999e580d5)
+  )
+  (hierarchical_label "IO0" (shape bidirectional) (at 127 40.64 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b20bb38e-8783-41b1-8b32-a42891219598)
+  )
+  (hierarchical_label "~{NSS}" (shape input) (at 127 38.1 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d625237e-423d-44f3-9267-d9cbbb688b01)
+  )
+  (hierarchical_label "IO2" (shape bidirectional) (at 127 45.72 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e91d7965-a691-4fc5-a42d-09971678da72)
+  )
+)

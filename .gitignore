@@ -1,0 +1,34 @@
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_prl
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+\#auto_saved_files\#
+
+/.metadata/
+/Hardware/STM32_144_dev_board1-backups/
+/STM32_144_dev_board1_fw/Debug/
+/STM32_144_dev_board1_fw/Release/
+/STM32_144_dev_board1_fw/.settings/
