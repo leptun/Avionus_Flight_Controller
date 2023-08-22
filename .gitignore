@@ -28,7 +28,7 @@ fp-info-cache
 \#auto_saved_files\#
 
 /.metadata/
-/Hardware/STM32_144_dev_board1-backups/
-/STM32_144_dev_board1_fw/Debug/
-/STM32_144_dev_board1_fw/Release/
-/STM32_144_dev_board1_fw/.settings/
+/Hardware/Avionus_Flight_Controller-backups/
+/Avionus_Flight_Controller_fw/Debug/
+/Avionus_Flight_Controller_fw/Release/
+/Avionus_Flight_Controller_fw/.settings/

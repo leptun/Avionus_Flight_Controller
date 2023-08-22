@@ -7,4 +7,17 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "iBUS" (shape bidirectional) (at 101.6 55.88 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 9e848868-78e7-4a43-a28a-4248e9d910cf)
+  )
+  (hierarchical_label "VCC" (shape passive) (at 101.6 53.34 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 9fb02126-ac23-4d20-9657-6b3550ffda97)
+  )
+  (hierarchical_label "PPM" (shape output) (at 101.6 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d35bb138-d3a7-4cad-a997-2b08ae91869f)
+  )
 )

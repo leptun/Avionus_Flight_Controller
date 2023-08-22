@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Avionus_F722.kicad_pro",
+    "filename": "Avionus_Flight_Controller.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -328,20 +328,16 @@
       ""
     ],
     [
+      "26f6db01-be5b-4944-aca8-25d2b5bac430",
+      "POWER"
+    ],
+    [
       "fb82246b-9ed4-401c-b8a1-7e9ae6260bc5",
       "MCU"
     ],
     [
-      "a9aaa4a3-7ef9-4aeb-9917-54b44867eb01",
-      "RF"
-    ],
-    [
-      "3a158364-4219-4eb3-b5df-68fe4e695c96",
-      "GPS"
-    ],
-    [
-      "26f6db01-be5b-4944-aca8-25d2b5bac430",
-      "POWER"
+      "453e0de3-49a0-4fb1-b102-d46554d86fe8",
+      "DEBUG"
     ],
     [
       "31e99b3b-1804-434d-b69d-c6e432b73a14",
@@ -356,16 +352,24 @@
       "SD_CARD"
     ],
     [
-      "453e0de3-49a0-4fb1-b102-d46554d86fe8",
-      "DEBUG"
+      "d19046d9-5fb5-41f1-9a98-30f2d85e54f8",
+      "USB"
     ],
     [
-      "07011d92-7eb9-4cfe-9164-8ccacd4ef57f",
-      "SERVO"
+      "a9aaa4a3-7ef9-4aeb-9917-54b44867eb01",
+      "RF"
+    ],
+    [
+      "3a158364-4219-4eb3-b5df-68fe4e695c96",
+      "GPS"
     ],
     [
       "e1d6da77-64eb-4d15-b8a2-13dabb15172d",
       "REMOTE"
+    ],
+    [
+      "07011d92-7eb9-4cfe-9164-8ccacd4ef57f",
+      "SERVO"
     ],
     [
       "4e527910-a34d-4a1e-ad73-f13158f5b739",
@@ -374,10 +378,6 @@
     [
       "885989c2-2ebd-4bec-a075-370ce9d8b265",
       "LIDAR"
-    ],
-    [
-      "d19046d9-5fb5-41f1-9a98-30f2d85e54f8",
-      "USB"
     ],
     [
       "7fdd9ac2-b3bc-40e6-909c-cb884a3f310d",
