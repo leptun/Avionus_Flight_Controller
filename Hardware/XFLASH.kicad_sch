@@ -274,6 +274,11 @@
     (uuid bd39f8a0-bff6-4492-8c8b-987b46c9f383)
   )
 
+  (polyline (pts (xy 193.04 86.36) (xy 193.04 45.72))
+    (stroke (width 0) (type dash))
+    (uuid 021e1183-4f0a-46d9-aae1-54b5aac625b3)
+  )
+
   (wire (pts (xy 208.28 109.22) (xy 210.82 109.22))
     (stroke (width 0) (type default))
     (uuid 0dceb81c-d06d-4d72-b3e6-99b35ae28eea)
@@ -286,6 +291,11 @@
     (stroke (width 0) (type default))
     (uuid 36547e51-1549-4e94-8b20-1845c8795507)
   )
+  (polyline (pts (xy 86.36 45.72) (xy 86.36 86.36))
+    (stroke (width 0) (type dash))
+    (uuid 4bf870f6-1438-44a2-99c5-20d350c25e34)
+  )
+
   (wire (pts (xy 208.28 88.9) (xy 210.82 88.9))
     (stroke (width 0) (type default))
     (uuid 5d6b6e0a-0258-442e-affd-9a2eab080f8e)
@@ -294,6 +304,11 @@
     (stroke (width 0) (type default))
     (uuid 680706f1-10ee-40cc-820d-dc635505f7da)
   )
+  (polyline (pts (xy 86.36 86.36) (xy 193.04 86.36))
+    (stroke (width 0) (type dash))
+    (uuid 69f29c33-d25f-40d4-9c74-a730ef52205b)
+  )
+
   (wire (pts (xy 215.9 99.06) (xy 220.98 99.06))
     (stroke (width 0) (type default))
     (uuid 6d3b87c8-0026-4a71-8d7f-721b36b2949d)
@@ -305,6 +320,11 @@
   (bus (pts (xy 241.3 25.4) (xy 266.7 25.4))
     (stroke (width 0) (type default))
     (uuid 6f840ec4-151d-40fc-a556-b5b399f77acf)
+  )
+
+  (polyline (pts (xy 86.36 45.72) (xy 193.04 45.72))
+    (stroke (width 0) (type dash))
+    (uuid 73ea8361-0d4d-40a5-9d27-0bd3063ff610)
   )
 
   (wire (pts (xy 208.28 99.06) (xy 208.28 109.22))
@@ -350,6 +370,11 @@
   (wire (pts (xy 177.8 58.42) (xy 182.88 58.42))
     (stroke (width 0) (type default))
     (uuid e7c985a2-0f9a-49cf-b80c-c477f0de2abe)
+  )
+
+  (text "Stacked footprints" (at 86.36 86.36 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 06811225-c242-43da-8c49-dd3c30916eec)
   )
 
   (label "IO2" (at 220.98 99.06 180) (fields_autoplaced)
