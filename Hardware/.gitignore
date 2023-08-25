@@ -7,12 +7,15 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_prl
+*.lck
+*-backups/
 *~
 _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+\#auto_saved_files\#
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -24,11 +27,3 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-
-\#auto_saved_files\#
-
-/.metadata/
-/Hardware/Avionus_Flight_Controller-backups/
-/Avionus_Flight_Controller_fw/Debug/
-/Avionus_Flight_Controller_fw/Release/
-/Avionus_Flight_Controller_fw/.settings/
