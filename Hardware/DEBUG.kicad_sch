@@ -159,7 +159,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
@@ -310,6 +310,31 @@
     (uuid dc371e26-94a9-4a38-843d-43e32b6c3852)
   )
 
+  (symbol (lib_id "power:GND") (at 134.62 93.98 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 25706246-dee1-4e76-8e64-8c714c039901)
+    (property "Reference" "#PWR02" (at 128.27 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 130.81 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 134.62 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 134.62 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4d99f1e4-976e-4bf9-a353-90a293659cc5))
+    (instances
+      (project "Avionus_Flight_Controller"
+        (path "/ddc7e940-0588-4587-8902-8ced9e615ace/453e0de3-49a0-4fb1-b102-d46554d86fe8"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_02x07_Odd_Even") (at 144.78 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aa2698d-27dc-4e41-8604-61aa938476fe)
@@ -348,36 +373,6 @@
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/453e0de3-49a0-4fb1-b102-d46554d86fe8"
           (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 134.62 93.98 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8f99bfbf-f461-4deb-8c26-2644f7301b6d)
-    (property "Reference" "#PWR067" (at 128.27 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 130.81 93.9799 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 134.62 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 134.62 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bf32d639-a46b-4321-a134-41824fd28c7a))
-    (instances
-      (project "STM32_144_dev_board1"
-        (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/35098096-b805-4417-bb98-610cb63f0a62"
-          (reference "#PWR067") (unit 1)
-        )
-      )
-      (project "Avionus_Flight_Controller"
-        (path "/ddc7e940-0588-4587-8902-8ced9e615ace/453e0de3-49a0-4fb1-b102-d46554d86fe8"
-          (reference "#PWR02") (unit 1)
         )
       )
     )
