@@ -4317,13 +4317,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 93.98 185.42 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Device:R_Small") (at 93.98 185.42 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 2038b9c3-1f28-4861-a8a9-0456898cab0a)
-    (property "Reference" "R39" (at 93.98 187.96 90)
+    (property "Reference" "R39" (at 93.98 182.88 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 93.98 190.5 90)
+    (property "Value" "1K" (at 93.98 180.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 93.98 185.42 0)
@@ -4332,8 +4332,8 @@
     (property "Datasheet" "~" (at 93.98 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6b9ac249-f269-45d7-8b67-0d057c43d1d3))
-    (pin "2" (uuid 903171b3-b942-4fa8-87f1-da53ca1d9909))
+    (pin "1" (uuid 9513d7cc-2926-4b06-b432-714ddd7cb4db))
+    (pin "2" (uuid b31a2f90-31f5-4a95-a697-57dae23b80c3))
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430"
@@ -4450,13 +4450,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 93.98 177.8 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Device:R_Small") (at 93.98 177.8 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 3beda399-7aa0-4ed5-b17b-bd7035da647c)
-    (property "Reference" "R38" (at 93.98 180.34 90)
+    (property "Reference" "R38" (at 93.98 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 93.98 182.88 90)
+    (property "Value" "1K" (at 93.98 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 93.98 177.8 0)
@@ -4465,8 +4465,8 @@
     (property "Datasheet" "~" (at 93.98 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7342250-0ff3-44bb-a344-809a8be53955))
-    (pin "2" (uuid 27c2d2b7-19b7-4b2c-8f2e-323249446084))
+    (pin "1" (uuid acbfbdd4-bbd7-494a-ade7-1e23f3c409f0))
+    (pin "2" (uuid a4c6f1fd-9ac7-4037-b3ac-97259192a17a))
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430"
@@ -6099,7 +6099,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 93.98 170.18 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid f279fe13-c71c-44aa-b726-bb1f365fa5ab)
     (property "Reference" "R34" (at 93.98 165.1 90)
       (effects (font (size 1.27 1.27)))
@@ -6113,8 +6113,8 @@
     (property "Datasheet" "~" (at 93.98 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4236b142-e61d-486e-b1c5-03e7b6faa7c5))
-    (pin "2" (uuid 7cebca14-f8fa-4eb2-be7a-da303ab3f1bf))
+    (pin "1" (uuid d967c799-3ff2-4a24-b7e4-0bf0417c5f14))
+    (pin "2" (uuid 1dc0bb18-b367-4860-a881-fab1cf9c2ca0))
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430"
