@@ -313,7 +313,7 @@
   (symbol (lib_id "power:GND") (at 134.62 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25706246-dee1-4e76-8e64-8c714c039901)
-    (property "Reference" "#PWR02" (at 128.27 93.98 0)
+    (property "Reference" "#PWR0401" (at 128.27 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 93.98 90)
@@ -329,7 +329,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/453e0de3-49a0-4fb1-b102-d46554d86fe8"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR0401") (unit 1)
         )
       )
     )
@@ -338,7 +338,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x07_Odd_Even") (at 144.78 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aa2698d-27dc-4e41-8604-61aa938476fe)
-    (property "Reference" "J11" (at 146.05 80.01 0)
+    (property "Reference" "J?" (at 146.05 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STDC14" (at 146.05 82.55 0)
@@ -367,12 +367,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/35098096-b805-4417-bb98-610cb63f0a62"
-          (reference "J11") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/453e0de3-49a0-4fb1-b102-d46554d86fe8"
-          (reference "J1") (unit 1)
+          (reference "J401") (unit 1)
         )
       )
     )

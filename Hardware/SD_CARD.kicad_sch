@@ -606,7 +606,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 137.16 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 069d17db-e91a-4b7f-a8a1-0e3b57692361)
-    (property "Reference" "#PWR04" (at 130.81 96.52 0)
+    (property "Reference" "#PWR0701" (at 130.81 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 96.52 90)
@@ -622,7 +622,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR0701") (unit 1)
         )
       )
     )
@@ -631,13 +631,13 @@
   (symbol (lib_id "Device:R_Small") (at 114.3 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19d40937-6084-4f29-8c24-5cd5c4f7257f)
-    (property "Reference" "R11" (at 114.3 48.26 90)
+    (property "Reference" "R?" (at 114.3 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K" (at 114.3 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 114.3 50.8 0)
+    (property "Footprint" "" (at 114.3 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 114.3 50.8 0)
@@ -648,12 +648,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/09424eae-563a-4982-8a6a-9fcacf6903ed"
-          (reference "R11") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "R1") (unit 1)
+          (reference "R701") (unit 1)
         )
       )
     )
@@ -662,13 +662,13 @@
   (symbol (lib_id "Device:R_Small") (at 187.96 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ea9a54b-56a3-4eaf-b38a-76fd5eab1ef3)
-    (property "Reference" "R16" (at 187.96 88.9 90)
+    (property "Reference" "R?" (at 187.96 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 187.96 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 187.96 93.98 0)
+    (property "Footprint" "" (at 187.96 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 187.96 93.98 0)
@@ -679,12 +679,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/09424eae-563a-4982-8a6a-9fcacf6903ed"
-          (reference "R16") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "R6") (unit 1)
+          (reference "R706") (unit 1)
         )
       )
     )
@@ -693,13 +693,13 @@
   (symbol (lib_id "Device:R_Small") (at 187.96 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d75efac-2c48-435c-b92f-fa0969f0f296)
-    (property "Reference" "R17" (at 187.96 101.6 90)
+    (property "Reference" "R?" (at 187.96 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 187.96 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 187.96 96.52 0)
+    (property "Footprint" "" (at 187.96 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 187.96 96.52 0)
@@ -710,12 +710,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/09424eae-563a-4982-8a6a-9fcacf6903ed"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "R7") (unit 1)
+          (reference "R707") (unit 1)
         )
       )
     )
@@ -724,13 +724,13 @@
   (symbol (lib_id "Device:R_Small") (at 114.3 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6743746d-cbe4-412a-92e5-dc3c8889c3bf)
-    (property "Reference" "R15" (at 114.3 78.74 90)
+    (property "Reference" "R?" (at 114.3 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K" (at 114.3 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 114.3 81.28 0)
+    (property "Footprint" "" (at 114.3 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 114.3 81.28 0)
@@ -741,12 +741,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/09424eae-563a-4982-8a6a-9fcacf6903ed"
-          (reference "R15") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "R5") (unit 1)
+          (reference "R705") (unit 1)
         )
       )
     )
@@ -755,7 +755,7 @@
   (symbol (lib_id "Device:C_Small") (at 142.24 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ad026ac-83fe-465e-98a0-e09be56ec7b1)
-    (property "Reference" "C24" (at 144.78 62.2362 0)
+    (property "Reference" "C?" (at 144.78 62.2362 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 144.78 64.7762 0)
@@ -772,12 +772,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/09424eae-563a-4982-8a6a-9fcacf6903ed"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "C1") (unit 1)
+          (reference "C701") (unit 1)
         )
       )
     )
@@ -786,7 +786,7 @@
   (symbol (lib_id "Connector:SD_Card") (at 160.02 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79cce09b-85d7-4529-9038-39dc5e0555ea)
-    (property "Reference" "J17" (at 160.02 81.28 0)
+    (property "Reference" "J?" (at 160.02 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SD_Card" (at 160.02 83.82 0)
@@ -814,12 +814,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/09424eae-563a-4982-8a6a-9fcacf6903ed"
-          (reference "J17") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "J2") (unit 1)
+          (reference "J701") (unit 1)
         )
       )
     )
@@ -828,13 +828,13 @@
   (symbol (lib_id "Device:R_Small") (at 114.3 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ff1e4c7-4f18-458f-9896-6f4110b5a850)
-    (property "Reference" "R13" (at 114.3 63.5 90)
+    (property "Reference" "R?" (at 114.3 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K" (at 114.3 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 114.3 66.04 0)
+    (property "Footprint" "" (at 114.3 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 114.3 66.04 0)
@@ -845,12 +845,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/09424eae-563a-4982-8a6a-9fcacf6903ed"
-          (reference "R13") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "R3") (unit 1)
+          (reference "R703") (unit 1)
         )
       )
     )
@@ -859,13 +859,13 @@
   (symbol (lib_id "Device:R_Small") (at 114.3 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a96f318c-ffbb-451c-8ce7-19bc310e0fe0)
-    (property "Reference" "R12" (at 114.3 55.88 90)
+    (property "Reference" "R?" (at 114.3 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K" (at 114.3 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 114.3 58.42 0)
+    (property "Footprint" "" (at 114.3 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 114.3 58.42 0)
@@ -876,12 +876,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/09424eae-563a-4982-8a6a-9fcacf6903ed"
-          (reference "R12") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "R2") (unit 1)
+          (reference "R702") (unit 1)
         )
       )
     )
@@ -890,7 +890,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 137.16 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d503f1e3-f48e-4934-ac4f-9712edb7f150)
-    (property "Reference" "#PWR06" (at 130.81 104.14 0)
+    (property "Reference" "#PWR0702" (at 130.81 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 104.14 90)
@@ -906,7 +906,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR0702") (unit 1)
         )
       )
     )
@@ -915,7 +915,7 @@
   (symbol (lib_id "power:GND") (at 142.24 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc67e11c-874f-49e3-b6db-dd1a09b41ba4)
-    (property "Reference" "#PWR08" (at 142.24 72.39 0)
+    (property "Reference" "#PWR0703" (at 142.24 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 71.12 0)
@@ -931,7 +931,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0703") (unit 1)
         )
       )
     )
@@ -940,7 +940,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 185.42 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f654ee99-b27f-42cd-a51e-3197475b80f6)
-    (property "Reference" "#PWR09" (at 185.42 113.03 0)
+    (property "Reference" "#PWR0704" (at 185.42 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 111.76 0)
@@ -956,7 +956,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0704") (unit 1)
         )
       )
     )
@@ -965,13 +965,13 @@
   (symbol (lib_id "Device:R_Small") (at 114.3 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6f22c1a-a3c5-44cc-9a8b-e6be33c586a7)
-    (property "Reference" "R14" (at 114.3 71.12 90)
+    (property "Reference" "R?" (at 114.3 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K" (at 114.3 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 114.3 73.66 0)
+    (property "Footprint" "" (at 114.3 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 114.3 73.66 0)
@@ -982,12 +982,12 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/09424eae-563a-4982-8a6a-9fcacf6903ed"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d4f35094-f1c2-44fc-ad8b-069a6f30e1c9"
-          (reference "R4") (unit 1)
+          (reference "R704") (unit 1)
         )
       )
     )

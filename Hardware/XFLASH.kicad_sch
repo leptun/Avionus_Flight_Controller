@@ -518,7 +518,7 @@
   (symbol (lib_id "Device:R_Small") (at 213.36 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d86abfa-c8fe-4757-adf4-e82ebe0d0c05)
-    (property "Reference" "R20" (at 213.36 102.87 90)
+    (property "Reference" "R?" (at 213.36 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 213.36 105.41 90)
@@ -535,15 +535,15 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/5a3f2e83-2524-4987-84b3-442c172b4877"
-          (reference "R20") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/31e99b3b-1804-434d-b69d-c6e432b73a14"
-          (reference "R62") (unit 1)
+          (reference "R503") (unit 1)
         )
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/5d37de1e-dde8-47f7-bd31-55135827514e"
-          (reference "R65") (unit 1)
+          (reference "R603") (unit 1)
         )
       )
     )
@@ -552,7 +552,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cc57a3a-adc8-4087-a40b-ea6d785829d1)
-    (property "Reference" "C25" (at 215.9 62.2362 0)
+    (property "Reference" "C?" (at 215.9 62.2362 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 215.9 64.7762 0)
@@ -569,15 +569,15 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/5a3f2e83-2524-4987-84b3-442c172b4877"
-          (reference "C25") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/31e99b3b-1804-434d-b69d-c6e432b73a14"
-          (reference "C25") (unit 1)
+          (reference "C501") (unit 1)
         )
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/5d37de1e-dde8-47f7-bd31-55135827514e"
-          (reference "C26") (unit 1)
+          (reference "C601") (unit 1)
         )
       )
     )
@@ -586,7 +586,7 @@
   (symbol (lib_id "Memory_Flash:W25Q128JVS") (at 116.84 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2db7ee3d-f013-400a-af28-adbbc8965f36)
-    (property "Reference" "U11" (at 125.73 59.69 0)
+    (property "Reference" "U501" (at 125.73 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q128JVS" (at 125.73 62.23 0)
@@ -609,10 +609,10 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/31e99b3b-1804-434d-b69d-c6e432b73a14"
-          (reference "U11") (unit 1)
+          (reference "U501") (unit 1)
         )
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/5d37de1e-dde8-47f7-bd31-55135827514e"
-          (reference "U13") (unit 1)
+          (reference "U601") (unit 1)
         )
       )
     )
@@ -621,7 +621,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 116.84 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 382e3da5-33dd-456d-8a9a-a3fc96046f3c)
-    (property "Reference" "#PWR037" (at 116.84 82.55 0)
+    (property "Reference" "#PWR0501" (at 116.84 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 81.28 0)
@@ -637,10 +637,10 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/31e99b3b-1804-434d-b69d-c6e432b73a14"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/5d37de1e-dde8-47f7-bd31-55135827514e"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR0601") (unit 1)
         )
       )
     )
@@ -649,7 +649,7 @@
   (symbol (lib_id "Device:R_Small") (at 213.36 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e00b24f-5d53-4356-8181-1caf8593c947)
-    (property "Reference" "R18" (at 213.36 82.55 90)
+    (property "Reference" "R?" (at 213.36 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 213.36 85.09 90)
@@ -666,15 +666,15 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/5a3f2e83-2524-4987-84b3-442c172b4877"
-          (reference "R18") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/31e99b3b-1804-434d-b69d-c6e432b73a14"
-          (reference "R60") (unit 1)
+          (reference "R501") (unit 1)
         )
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/5d37de1e-dde8-47f7-bd31-55135827514e"
-          (reference "R63") (unit 1)
+          (reference "R601") (unit 1)
         )
       )
     )
@@ -683,7 +683,7 @@
   (symbol (lib_id "power:GND") (at 213.36 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2e53877-2c65-4dd4-b02c-3b62410fa7de)
-    (property "Reference" "#PWR038" (at 213.36 72.39 0)
+    (property "Reference" "#PWR0503" (at 213.36 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 71.12 0)
@@ -699,10 +699,10 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/31e99b3b-1804-434d-b69d-c6e432b73a14"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR0503") (unit 1)
         )
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/5d37de1e-dde8-47f7-bd31-55135827514e"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR0603") (unit 1)
         )
       )
     )
@@ -711,7 +711,7 @@
   (symbol (lib_name "W25Q32JVZP_1") (lib_id "Memory_Flash:W25Q32JVZP") (at 167.64 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb6f98cf-63c3-4832-ab5f-8fe8b94d4dae)
-    (property "Reference" "U16" (at 176.53 59.69 0)
+    (property "Reference" "U502" (at 176.53 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q128JVPM" (at 176.53 62.23 0)
@@ -735,10 +735,10 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/31e99b3b-1804-434d-b69d-c6e432b73a14"
-          (reference "U16") (unit 1)
+          (reference "U502") (unit 1)
         )
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/5d37de1e-dde8-47f7-bd31-55135827514e"
-          (reference "U17") (unit 1)
+          (reference "U602") (unit 1)
         )
       )
     )
@@ -747,7 +747,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 167.64 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddf58002-edfe-462d-b804-7426f3df4f30)
-    (property "Reference" "#PWR041" (at 167.64 85.09 0)
+    (property "Reference" "#PWR0502" (at 167.64 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 83.82 0)
@@ -763,10 +763,10 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/31e99b3b-1804-434d-b69d-c6e432b73a14"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR0502") (unit 1)
         )
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/5d37de1e-dde8-47f7-bd31-55135827514e"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR0602") (unit 1)
         )
       )
     )
@@ -775,7 +775,7 @@
   (symbol (lib_id "Device:R_Small") (at 213.36 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe6f75b4-009c-4b57-8763-190b855c85bf)
-    (property "Reference" "R19" (at 213.36 92.71 90)
+    (property "Reference" "R?" (at 213.36 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 213.36 95.25 90)
@@ -792,15 +792,15 @@
     (instances
       (project "STM32_144_dev_board1"
         (path "/687cb9d5-0148-4d02-92a8-2c8817ac4452/5a3f2e83-2524-4987-84b3-442c172b4877"
-          (reference "R19") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/31e99b3b-1804-434d-b69d-c6e432b73a14"
-          (reference "R61") (unit 1)
+          (reference "R502") (unit 1)
         )
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/5d37de1e-dde8-47f7-bd31-55135827514e"
-          (reference "R64") (unit 1)
+          (reference "R602") (unit 1)
         )
       )
     )

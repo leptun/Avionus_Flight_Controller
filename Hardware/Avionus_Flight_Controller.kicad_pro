@@ -497,9 +497,9 @@
       "/MCU/USB_OTG_HS_DP": "USB",
       "/USB/CONN_D+": "USB",
       "/USB/CONN_D-": "USB",
-      "Net-(AE1-A)": "GPS_RF",
-      "Net-(C52-Pad2)": "GPS_RF",
-      "Net-(U2-RF_IN)": "GPS_RF"
+      "Net-(AE1001-A)": "GPS_RF",
+      "Net-(C1002-Pad2)": "GPS_RF",
+      "Net-(U1001-RF_IN)": "GPS_RF"
     },
     "netclass_patterns": []
   },
