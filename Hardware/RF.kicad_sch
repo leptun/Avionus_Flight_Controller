@@ -748,7 +748,7 @@
     (property "Reference" "Y901" (at 93.98 68.2057 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "24MHz" (at 93.98 70.7457 90)
+    (property "Value" "32MHz" (at 93.98 70.7457 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" (at 73.66 73.66 0)
