@@ -464,7 +464,6 @@
     (uuid ed85845d-dd51-4bef-ba4d-f7a0983662ff)
   )
 
-  (no_connect (at 127 96.52) (uuid 08188dcb-3c36-45df-815d-bb61f39a5bb5))
   (no_connect (at 152.4 88.9) (uuid 0f7b120b-d7bc-4b82-a7ad-8682a1a64e27))
   (no_connect (at 152.4 91.44) (uuid f6945c10-5c05-46f5-a7df-0ecd0f57b70c))
 
@@ -539,6 +538,10 @@
   (wire (pts (xy 33.02 99.06) (xy 35.56 99.06))
     (stroke (width 0) (type default))
     (uuid 31abf704-7034-4fa6-ba62-b2341802d466)
+  )
+  (wire (pts (xy 124.46 96.52) (xy 124.46 104.14))
+    (stroke (width 0) (type default))
+    (uuid 3f684f8d-df38-4953-a00b-0f4072dce917)
   )
   (wire (pts (xy 33.02 73.66) (xy 35.56 73.66))
     (stroke (width 0) (type default))
@@ -667,6 +670,10 @@
   (wire (pts (xy 50.8 58.42) (xy 48.26 58.42))
     (stroke (width 0) (type default))
     (uuid 8d67c994-5808-499d-b74d-7f237381c670)
+  )
+  (wire (pts (xy 127 96.52) (xy 124.46 96.52))
+    (stroke (width 0) (type default))
+    (uuid 940ef3ed-f3e5-46f6-879e-bb95c3cf5dd7)
   )
   (wire (pts (xy 50.8 134.62) (xy 53.34 134.62))
     (stroke (width 0) (type default))
@@ -1225,6 +1232,31 @@
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/7fdd9ac2-b3bc-40e6-909c-cb884a3f310d"
           (reference "#PWR01503") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 124.46 104.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5b3d1bbd-dfa6-48f9-83a2-b42f0b70ba2e)
+    (property "Reference" "#PWR01504" (at 124.46 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 124.46 109.22 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 124.46 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 124.46 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 47d19bb6-6aa7-4a28-af62-414acedf95bd))
+    (instances
+      (project "Avionus_Flight_Controller"
+        (path "/ddc7e940-0588-4587-8902-8ced9e615ace/7fdd9ac2-b3bc-40e6-909c-cb884a3f310d"
+          (reference "#PWR01504") (unit 1)
         )
       )
     )
