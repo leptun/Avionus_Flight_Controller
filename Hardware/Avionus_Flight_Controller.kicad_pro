@@ -212,11 +212,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|2387600|1219200|98434a9d-b1f5-4e4e-98ac-eb34ea5a9fe4|4d6f9d9b-0897-48b0-af23-37c5f9ff1c83|/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430|/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430|/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430",
-      "power_pin_not_driven|1371600|609600|bba8b8df-841b-4f9f-90bc-f1de2f2bd2e5|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|1397000|609600|bd4e4e29-91a1-4b3c-9168-2fd4aa743612|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -498,7 +494,7 @@
       "/USB/CONN_D+": "USB",
       "/USB/CONN_D-": "USB",
       "Net-(AE1001-A)": "GPS_RF",
-      "Net-(C1002-Pad2)": "GPS_RF",
+      "Net-(C1001-Pad2)": "GPS_RF",
       "Net-(U1001-RF_IN)": "GPS_RF"
     },
     "netclass_patterns": []
