@@ -2578,7 +2578,7 @@
     (property "Value" "RESET" (at 360.68 231.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 360.68 231.14 0)
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm" (at 360.68 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 360.68 231.14 0)
