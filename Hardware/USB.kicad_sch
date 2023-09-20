@@ -966,7 +966,7 @@
     (property "Value" "~" (at 263.398 17.78 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm" (at 266.7 15.24 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 266.7 15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.7 15.24 0)
