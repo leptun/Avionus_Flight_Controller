@@ -1218,7 +1218,7 @@
     (property "Value" "~" (at 25.4 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "leptunKicadLib:AMOGUS_exposed_copper" (at 25.4 25.4 0)
+    (property "Footprint" "leptunKicadLib:AMOGUS" (at 25.4 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 25.4 0)
