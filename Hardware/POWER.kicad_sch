@@ -1444,6 +1444,9 @@
   (junction (at 73.66 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 290844e9-85f5-4b46-a323-4eab6ccc0946)
   )
+  (junction (at 160.02 68.58) (diameter 0) (color 0 0 0 0)
+    (uuid 2b7b15fb-1355-4db2-a54d-70470b07e3fe)
+  )
   (junction (at 195.58 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 2d733880-2a7a-46bb-8e63-d01cb0de3ff7)
   )
@@ -1614,7 +1617,7 @@
     (stroke (width 0) (type default))
     (uuid 0208d838-d9bc-498e-a97f-87a6431ff4d3)
   )
-  (wire (pts (xy 152.4 68.58) (xy 162.56 68.58))
+  (wire (pts (xy 152.4 68.58) (xy 160.02 68.58))
     (stroke (width 0) (type default))
     (uuid 02663672-51c6-444b-a401-ed4e6b33fe46)
   )
@@ -2230,6 +2233,10 @@
   (wire (pts (xy 83.82 256.54) (xy 81.28 256.54))
     (stroke (width 0) (type default))
     (uuid 94ea8927-3fff-4ce3-a6fe-941a116ef92c)
+  )
+  (wire (pts (xy 160.02 68.58) (xy 162.56 68.58))
+    (stroke (width 0) (type default))
+    (uuid 964505be-110e-4629-909c-516fbc981093)
   )
   (wire (pts (xy 152.4 58.42) (xy 160.02 58.42))
     (stroke (width 0) (type default))
@@ -4991,7 +4998,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 274.32 266.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 063c92ea-37c6-41c1-841a-af611b33573f)
-    (property "Reference" "#FLG0204" (at 274.32 268.605 0)
+    (property "Reference" "#FLG0205" (at 274.32 268.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 274.32 271.78 0)
@@ -5007,7 +5014,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430"
-          (reference "#FLG0204") (unit 1)
+          (reference "#FLG0205") (unit 1)
         )
       )
     )
@@ -5119,7 +5126,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 271.78 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d99ea04-b157-454e-a555-dee3923dc107)
-    (property "Reference" "#FLG0203" (at 271.78 29.845 0)
+    (property "Reference" "#FLG0204" (at 271.78 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 271.78 33.02 0)
@@ -5135,7 +5142,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430"
-          (reference "#FLG0203") (unit 1)
+          (reference "#FLG0204") (unit 1)
         )
       )
     )
@@ -7188,10 +7195,10 @@
     (property "Reference" "R229" (at 368.3 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100R" (at 368.3 26.67 0)
+    (property "Value" "150R" (at 368.3 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 365.76 25.4 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 365.76 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 365.76 25.4 0)
@@ -7524,7 +7531,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 271.78 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8aed35c-cbde-4f65-b9f4-c397216c76cc)
-    (property "Reference" "#FLG0202" (at 271.78 23.495 0)
+    (property "Reference" "#FLG0203" (at 271.78 23.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 271.78 20.32 0)
@@ -7540,7 +7547,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430"
-          (reference "#FLG0202") (unit 1)
+          (reference "#FLG0203") (unit 1)
         )
       )
     )
@@ -7875,6 +7882,31 @@
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430"
           (reference "R211") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 160.02 68.58 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e0ccaaaf-2095-4cd6-827f-eba93954a82f)
+    (property "Reference" "#FLG0202" (at 160.02 70.485 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 160.02 73.66 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 160.02 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 160.02 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0ecd6b03-f463-47b3-a1b3-bbe39d0fdd5c))
+    (instances
+      (project "Avionus_Flight_Controller"
+        (path "/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430"
+          (reference "#FLG0202") (unit 1)
         )
       )
     )
