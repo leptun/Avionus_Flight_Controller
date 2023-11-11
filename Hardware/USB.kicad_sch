@@ -958,7 +958,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 266.7 20.32 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid b475dfeb-7a18-41c1-9eb0-6cf89d6c3d3d)
     (property "Reference" "TP801" (at 263.398 17.78 90)
       (effects (font (size 1.27 1.27)))
@@ -972,7 +972,7 @@
     (property "Datasheet" "~" (at 266.7 15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6dce92a7-ed31-4651-8da6-86b3acd1f7bc))
+    (pin "1" (uuid e591d062-c531-473a-afc2-6efc1697a859))
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/d19046d9-5fb5-41f1-9a98-30f2d85e54f8"

@@ -2911,7 +2911,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 320.04 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c18d3b9-3cbd-46d1-b2b0-106f0b223dee)
     (property "Reference" "C312" (at 322.58 110.4963 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2925,8 +2925,8 @@
     (property "Datasheet" "~" (at 320.04 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 419649b1-c92e-4e7c-9299-5efb30214801))
-    (pin "2" (uuid 95978778-33d7-4480-9ac6-8e0ad59f890b))
+    (pin "1" (uuid 8f6bb5d7-942c-49d2-8b51-1b849ddec345))
+    (pin "2" (uuid 46c5fd48-ccc6-441c-9475-765e934a8b49))
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/fb82246b-9ed4-401c-b8a1-7e9ae6260bc5"
