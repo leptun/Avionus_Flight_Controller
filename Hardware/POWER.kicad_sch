@@ -7079,7 +7079,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 215.9 246.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a08d4043-0290-4e57-8330-a0bdb449d28c)
-    (property "Reference" "TP210" (at 220.98 246.38 90)
+    (property "Reference" "TP209" (at 220.98 246.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 219.202 248.92 90)
@@ -7095,7 +7095,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/26f6db01-be5b-4944-aca8-25d2b5bac430"
-          (reference "TP210") (unit 1)
+          (reference "TP209") (unit 1)
         )
       )
     )
