@@ -2167,10 +2167,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid b7db490c-57fc-43f1-83ed-8ad7023f26a4)
     )
-    (pin "GPIO_PD1" output (at 215.9 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 9eaca29e-e82a-4683-9e67-3bd708e566f7)
-    )
     (pin "GPIO_PD4+EXTI4" bidirectional (at 139.7 81.28 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 986274d3-deab-4658-8b43-1fba0e3b49ef)
@@ -2262,6 +2258,10 @@
     (pin "GPIO_PA12" input (at 215.9 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 0982aa1c-f0df-4383-bf12-22a24dc432cd)
+    )
+    (pin "GPIO_PE2" output (at 215.9 165.1 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 1a46d6d7-9202-4139-a39b-f6c6e693d3f5)
     )
     (instances
       (project "Avionus_Flight_Controller"
