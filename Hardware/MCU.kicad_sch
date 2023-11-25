@@ -4,6 +4,12 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Avionus_Flight_Controller")
+    (date "2023-11-25")
+    (rev "1.0")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
@@ -2690,7 +2696,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 094a9815-635f-4b7f-a9b6-82c6fb5111b8)
-    (property "Reference" "TP310" (at 187.96 142.24 90)
+    (property "Reference" "TP308" (at 187.96 142.24 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 187.96 143.51 90)
@@ -2706,7 +2712,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/fb82246b-9ed4-401c-b8a1-7e9ae6260bc5"
-          (reference "TP310") (unit 1)
+          (reference "TP308") (unit 1)
         )
       )
     )
@@ -2767,7 +2773,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 124.46 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 152cac5f-2366-48f2-8ed3-0cb51926dfe1)
-    (property "Reference" "TP306" (at 187.96 124.46 90)
+    (property "Reference" "TP304" (at 187.96 124.46 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 187.96 125.73 90)
@@ -2783,7 +2789,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/fb82246b-9ed4-401c-b8a1-7e9ae6260bc5"
-          (reference "TP306") (unit 1)
+          (reference "TP304") (unit 1)
         )
       )
     )
@@ -2792,7 +2798,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 168705a4-b41d-4ecb-9c44-32525e7dd89f)
-    (property "Reference" "TP309" (at 187.96 139.7 90)
+    (property "Reference" "TP307" (at 187.96 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 187.96 140.97 90)
@@ -2808,7 +2814,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/fb82246b-9ed4-401c-b8a1-7e9ae6260bc5"
-          (reference "TP309") (unit 1)
+          (reference "TP307") (unit 1)
         )
       )
     )
@@ -2817,7 +2823,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 220.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17c461f5-8a8f-464e-8561-de5bf83a33bb)
-    (property "Reference" "TP312" (at 187.96 220.98 90)
+    (property "Reference" "TP310" (at 187.96 220.98 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 187.96 222.25 90)
@@ -2833,7 +2839,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/fb82246b-9ed4-401c-b8a1-7e9ae6260bc5"
-          (reference "TP312") (unit 1)
+          (reference "TP310") (unit 1)
         )
       )
     )
@@ -2842,7 +2848,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cfbbab0-b3ca-45bd-999a-14a9d63c0256)
-    (property "Reference" "TP307" (at 187.96 132.08 90)
+    (property "Reference" "TP305" (at 187.96 132.08 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 187.96 133.35 90)
@@ -2858,7 +2864,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/fb82246b-9ed4-401c-b8a1-7e9ae6260bc5"
-          (reference "TP307") (unit 1)
+          (reference "TP305") (unit 1)
         )
       )
     )
@@ -2999,7 +3005,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4abd26f4-382d-40a4-a77a-36d1aa0d1093)
-    (property "Reference" "TP308" (at 187.96 134.62 90)
+    (property "Reference" "TP306" (at 187.96 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 187.96 135.89 90)
@@ -3015,7 +3021,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/fb82246b-9ed4-401c-b8a1-7e9ae6260bc5"
-          (reference "TP308") (unit 1)
+          (reference "TP306") (unit 1)
         )
       )
     )
@@ -3677,7 +3683,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 121.92 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abd2219b-746f-4166-9bd3-8fb26c349178)
-    (property "Reference" "TP305" (at 187.96 121.92 90)
+    (property "Reference" "TP303" (at 187.96 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 187.96 123.19 90)
@@ -3693,7 +3699,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/fb82246b-9ed4-401c-b8a1-7e9ae6260bc5"
-          (reference "TP305") (unit 1)
+          (reference "TP303") (unit 1)
         )
       )
     )
@@ -3702,7 +3708,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 182.88 210.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid affcfde3-cbe4-43c7-ae8f-4efe310accf0)
-    (property "Reference" "TP311" (at 187.96 210.82 90)
+    (property "Reference" "TP309" (at 187.96 210.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 187.96 212.09 90)
@@ -3718,7 +3724,7 @@
     (instances
       (project "Avionus_Flight_Controller"
         (path "/ddc7e940-0588-4587-8902-8ced9e615ace/fb82246b-9ed4-401c-b8a1-7e9ae6260bc5"
-          (reference "TP311") (unit 1)
+          (reference "TP309") (unit 1)
         )
       )
     )

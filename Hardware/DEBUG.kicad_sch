@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Avionus_Flight_Controller")
+    (date "2023-11-25")
+    (rev "1.0")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x07_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 10.16 0)

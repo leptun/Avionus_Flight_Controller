@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Avionus_Flight_Controller")
+    (date "2023-11-25")
+    (rev "1.0")
+  )
+
   (lib_symbols
     (symbol "Device:Buzzer" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "BZ" (at 3.81 1.27 0)

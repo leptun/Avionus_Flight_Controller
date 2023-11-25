@@ -4,6 +4,12 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Avionus_Flight_Controller")
+    (date "2023-11-25")
+    (rev "1.0")
+  )
+
   (lib_symbols
     (symbol "Graphic:Logo_Open_Hardware_Small" (in_bom no) (on_board no)
       (property "Reference" "#SYM" (at 0 6.985 0)
