@@ -18300,6 +18300,9 @@
   (gr_text "rev ${REVISION}\n${ISSUE_DATE}" (at 33.02 28.448) (layer "B.SilkS") (tstamp 8d671e6d-a2b3-49d6-9c26-5086aa44638d)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "JLCJLCJLCJLC" (at 75.8952 93.1672) (layer "F.SilkS") (tstamp 3d53ba1b-f0d3-4ec7-88ce-1111c610b8a5)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 
   (segment (start 34.267604 51.816) (end 47.372 51.816) (width 0.3) (layer "F.Cu") (net 1) (tstamp 0da2bc53-d025-44d0-8da1-f37b54aeb619))
   (segment (start 47.45 51.738) (end 49.53 49.658) (width 0.3) (layer "F.Cu") (net 1) (tstamp 662dfb1a-56c8-4945-8dd0-5c17610681f6))
