@@ -4506,7 +4506,7 @@
     )
   )
 
-  (text_box "D5: Remote, LIDAR"
+  (text_box "D5: Remote, LIDAR, UI"
     (at 12.7 233.68 0) (size 121.92 5.08)
     (stroke (width 0) (type default))
     (fill (type color) (color 255 255 0 1))
@@ -4541,7 +4541,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)))
     (uuid a18cc377-4f22-429e-8306-b6c61bfc808d)
   )
-  (text_box "D1: MCU, DEBUG, XFLASH, UI"
+  (text_box "D1: MCU, DEBUG, XFLASH"
     (at 12.7 12.7 0) (size 121.92 5.08)
     (stroke (width 0) (type default))
     (fill (type color) (color 255 255 0 1))

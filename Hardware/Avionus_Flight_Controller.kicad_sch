@@ -1678,7 +1678,7 @@
     (property "Sheetfile" "UI.kicad_sch" (at 254 178.3846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "~{BUZZER}" input (at 254 175.26 180)
+    (pin "BUZZER" input (at 254 175.26 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9582c638-d925-4c0a-8899-8669f549595f)
     )
