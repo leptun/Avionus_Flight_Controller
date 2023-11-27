@@ -27,3 +27,6 @@ Features:
   - JTAG
   - SWO
   - UART
+
+![PCB_Front](Hardware/out/front.jpg)
+![PCB_Back](Hardware/out/back.jpg)
