@@ -526,7 +526,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "out/Avionus_Flight_Controller.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
